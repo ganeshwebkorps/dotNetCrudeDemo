@@ -16,7 +16,6 @@ namespace demoApplication.Controllers
 		public ActionResult About()
 		{
 			ViewBag.Message = "Your application description page.";
-			viewBag.CurrentTime = DateTime.Now.ToString("F");
 
 			return View();
 		}
@@ -24,9 +23,7 @@ namespace demoApplication.Controllers
 		public ActionResult Contact()
 		{
 			ViewBag.Message = "Your contact page.";
-            viewBag.CurrentTime = DateTime.Now.ToString("F");
-			viewBag.UserAgent = Request.UserAgent;
-			viewBag.ClientIP = Request.UserHostAddress;
+
 			return View();
 		}
 	}
