@@ -15,86 +15,8 @@ namespace demoApplication.Controllers
 
 		public ActionResult About()
 		{
-    //do some work here
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-      
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-      //remove unnecessary things
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
-			ViewBag.Message = "Your application description page.";
+    		//HEHEHHEHHEHEHHEHEHHHEHE
+			 ViewBag.Message = "Your application description page.";
 
 			return View();
 		}
