@@ -23,7 +23,7 @@ namespace demoApplication.Controllers
 		public ActionResult Contact()
 		{
 			ViewBag.Message = "Your contact page.";
-
+            viewBag.CurrentTime = DateTime.Now.ToString("F");
 			return View();
 		}
 	}
