@@ -16,7 +16,8 @@ namespace demoApplication.Controllers
 		public ActionResult About()
 		{
 			ViewBag.Message = "Your application description page.";
-
+            viewBag.CurrentTime = DateTime.Now.ToString("Fahadasdasdasdsadsafaf");
+            viewBag.CurrentTime = DateTime.Now.ToString("Fahadasdasdasdsadsafaf");
 			return View();
 		}
 
