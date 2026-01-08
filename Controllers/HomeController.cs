@@ -41,6 +41,39 @@ namespace demoApplication.Controllers
 			ViewBag.Message = "Your application description page.";
       
       //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
+      //remove unnecessary things
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
