@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About .NET</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        .about-section {
+            max-width: 1000px;
+            margin: 50px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2 {
+            text-align: center;
+            color: #512bd4;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .feature-box {
+            background: #f0f2ff;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .feature-box h4 {
+            color: #512bd4;
+            margin-bottom: 10px;
+        }
+
+        .feature-box p {
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .about-section {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="about-section">
+        <h2>About .NET</h2>
+        <p>
+            .NET is a free, open-source, and cross-platform framework developed by Microsoft.
+            It is used to build a wide range of applications such as web applications, desktop
+            applications, cloud services, mobile apps, and APIs. .NET supports multiple
+            programming languages including C#, F#, and VB.NET.
+        </p>
+
+        <p>
+            The .NET platform provides a rich set of libraries, tools, and runtime environments
+            that help developers write secure, high-performance, and scalable applications.
+            It simplifies development by offering features like garbage collection, type safety,
+            and built-in support for modern application architectures.
+        </p>
+
+        <div class="features">
+            <div class="feature-box">
+                <h4>Cross Platform</h4>
+                <p>Run applications on Windows, Linux, and macOS.</p>
+            </div>
+
+            <div class="feature-box">
+                <h4>High Performance</h4>
+                <p>Optimized runtime for fast and efficient applications.</p>
+            </div>
+
+            <div class="feature-box">
+                <h4>Secure</h4>
+                <p>Built-in security features for authentication and authorization.</p>
+            </div>
+
+            <div class="feature-box">
+                <h4>Developer Friendly</h4>
+                <p>Excellent tooling support with Visual Studio and VS Code.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
