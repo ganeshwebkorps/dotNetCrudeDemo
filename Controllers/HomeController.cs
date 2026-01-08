@@ -15,6 +15,7 @@ namespace demoApplication.Controllers
 
 		public ActionResult About()
 		{
+    //do some work here
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
@@ -61,6 +62,8 @@ namespace demoApplication.Controllers
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
+      
+      //remove unnecessary things
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
 			ViewBag.Message = "Your application description page.";
@@ -89,7 +92,7 @@ namespace demoApplication.Controllers
 		public ActionResult Contact()
 		{
 			ViewBag.Message = "Your contact page.";
-
+            viewBag.CurrentTime = DateTime.Now.ToString("F");
 			return View();
 		}
 	}
