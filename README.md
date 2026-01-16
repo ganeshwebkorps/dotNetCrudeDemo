@@ -1,1 +1,1 @@
-This is second readme update where I removed the last update
+This repo is to practice and learn the git.
