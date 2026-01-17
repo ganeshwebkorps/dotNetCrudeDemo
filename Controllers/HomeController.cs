@@ -28,3 +28,28 @@ namespace demoApplication.Controllers
 		}
 	}
 }
+
+
+
+using System.Web.Mvc;
+
+namespace dotNetCrudeDemo.Controllers
+{
+    public class HomeController : Controller
+    {
+        // GET: Home
+        public ActionResult Index()
+        {
+            return View();
+        }
+
+        // ================================
+        // FEATURE-DEV DEMO METHOD
+        // ================================
+        public ActionResult FeatureDevDemo()
+        {
+            ViewBag.Message = "This is demo code from feature-dev branch";
+            return View();
+        }
+    }
+}
